@@ -8,3 +8,10 @@ function addFriend(name) {
 }
 
 addFriend("Jess");
+
+// Function using push method to add new friend
+function addAnotherFriend(name) {
+  myFriends.push(name);
+}
+
+addAnotherFriend("Jessi");
